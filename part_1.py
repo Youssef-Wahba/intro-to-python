@@ -1,3 +1,5 @@
+##########################  INTRODUCTION   ##########################
+
 # Python is a 'high level language' that is more easier for developers to
 # deal with rather than 'low level languages' that are more complex
 
