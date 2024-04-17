@@ -78,9 +78,9 @@ x = 10
 pi = 3.14
 
 # String (str): Sequence of characters, enclosed in single, double, or triple quotes.
+name = 'Alice'
 name = "Alice"
-name = "Alice"
-name = """Alice"""
+name = '''Alice'''
 name = """Alice"""
 
 # Boolean (bool): Represents truth values, either True or False.
