@@ -1,6 +1,7 @@
 ##########################  RECIEVE_INPUT   ##########################
 
-# In Python, you can use the input() function to receive input from the user via the console. The input() function reads a line of text entered by the user and returns it as a string. Here's how you can use it
+# In Python, you can use the input() function to receive input from the user via the console.
+# The input() function reads a line of text entered by the user and returns it as a string. Here's how you can use it
 
 # Receive input from the user
 name = input("Enter your name: ")
@@ -10,7 +11,10 @@ print("Hello,", name)
 age = int(input("Enter your age: "))
 print("You are", age, "years old.")
 
-# Keep in mind that the input() function always returns a string. If you want to convert the input to another data type (like integer or float), you can wrap the input() function with the appropriate conversion function (int(), float(), etc.). However, you need to handle exceptions if the user enters invalid input that cannot be converted to the desired data type.
+# Keep in mind that the input() function always returns a string.
+# If you want to convert the input to another data type (like integer or float),
+# you can wrap the input() function with the appropriate conversion function (int(), float(), etc.).
+# However, you need to handle exceptions if the user enters invalid input that cannot be converted to the desired data type.
 
 ##########################  IF_CONDITIONS   ##########################
 
@@ -68,7 +72,9 @@ else:
 
 ##########################  MATCH_CASE   ##########################
 
-# Starting from Python 3.10, you can use the match statement as an alternative to long chains of if, elif, and else statements, especially when dealing with pattern matching. The match statement provides a concise and expressive way to compare a value against multiple patterns and execute code based on the matching pattern.
+# Starting from Python 3.10, you can use the match statement as an alternative to long chains of if, elif, and else statements,
+# especially when dealing with pattern matching. The match statement provides a concise and expressive way
+# to compare a value against multiple patterns and execute code based on the matching pattern.
 
 
 def describe_fruit(fruit):

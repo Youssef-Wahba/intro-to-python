@@ -1,6 +1,8 @@
 ##########################   LISTS   ##########################
 
-# Lists in Python are ordered collections of items, which can be of any data type. Lists are mutable, meaning their elements can be changed after the list is created. Lists are defined by enclosing a comma-separated sequence of elements within square brackets [ ]
+# Lists in Python are ordered collections of items, which can be of any data type.
+# Lists are mutable, meaning their elements can be changed after the list is created.
+# Lists are defined by enclosing a comma-separated sequence of elements within square brackets [ ]
 
 # Creating a list
 my_list = [1, 2, 3, 4, 5]
@@ -71,7 +73,10 @@ my_list.clear()
 print(my_list)  # Output: []
 
 # copy():  create a shallow copy of a list
-# A shallow copy means that a new list object is created, and it contains references to the same elements as the original list. However, if the elements themselves are mutable objects (e.g., lists, dictionaries), changes to these mutable elements in the copied list will also affect the original list and vice versa
+# A shallow copy means that a new list object is created,
+# and it contains references to the same elements as the original list. However,
+# if the elements themselves are mutable objects (e.g., lists, dictionaries),
+# changes to these mutable elements in the copied list will also affect the original list and vice versa
 original_list = [1, 2, 3]
 copied_list = original_list.copy()
 
@@ -90,7 +95,10 @@ print(c)  # Output: 3
 
 ##########################   TUPLES   ##########################
 
-# Tuples in Python are ordered collections of items, similar to lists, but with one crucial difference: tuples are IMMUTABLE, meaning their elements cannot be changed after the tuple is created. Tuples are defined by enclosing a comma-separated sequence of elements within parentheses ().
+# Tuples in Python are ordered collections of items, similar to lists,
+# but with one crucial difference: tuples are IMMUTABLE,
+# meaning their elements cannot be changed after the tuple is created.
+# Tuples are defined by enclosing a comma-separated sequence of elements within parentheses ().
 
 # Creating a list
 my_tuple = (1, 2, 3, 4, 5)
@@ -115,7 +123,8 @@ print(city)  # Output: New York
 
 ##########################   FOR_LOOP   ##########################
 
-# For loops in Python are used to iterate over a sequence (such as a list, tuple, string, or range) and execute a block of code for each item in the sequence. The basic syntax of a for loop in Python is as follows:
+# For loops in Python are used to iterate over a sequence (such as a list, tuple, string, or range)
+# and execute a block of code for each item in the sequence. The basic syntax of a for loop in Python is as follows:
 
 # for item in iterable:
 #     # Code block to execute for each item
@@ -130,7 +139,8 @@ for fruit in fruits:
 for i in range(5):
     print(i)
 
-# The range() function can also be used with start, stop, and step arguments to generate a range of numbers with specific properties
+# The range() function can also be used with start, stop, and step arguments
+# to generate a range of numbers with specific properties
 # This loop will print odd numbers from 1 to 9.
 for i in range(1, 10, 2):
     print(i)

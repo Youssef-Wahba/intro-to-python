@@ -24,7 +24,8 @@
 # Declaration: In Python, you don't explicitly declare variables before using them
 # **Declaration doesn't happen explicitly, it's done implicitly by assignment
 # Assignment: Assigning a value to a variable means giving it a specific data or object to hold
-# Initialization: Initialization refers to the act of giving an initial value to a variable at the time of its creation. It's the process of assigning the first value to a variable.
+# Initialization: Initialization refers to the act of giving an initial value to a variable at the time of its creation.
+# It's the process of assigning the first value to a variable.
 
 # Assignment and Initialization
 x = 10  # Assigning the value 10 to the variable x, initializing it
@@ -42,7 +43,8 @@ x, y = 10, 20
 x, y = y, x
 
 # Camel case vs Pascal case vs Snake case
-# Camel case is a convention where multiple words are joined together, and each word (except the first one) begins with a capital letter.
+# Camel case is a convention where multiple words are joined together, and each word (except the first one)
+# begins with a capital letter.
 # Example: camelCaseExample, numberOfStudents, totalSalesAmount
 
 # Pascal case is similar to camel case, but it starts with a capital letter, including the first word.
@@ -54,7 +56,8 @@ x, y = y, x
 
 # It's essential to follow the conventions of the language or project you're working with for consistency and readability.
 
-# Python commonly uses snake case for variable and function names, while languages like Java and C# often use camel case or pascal case.
+# Python commonly uses snake case for variable and function names,
+# while languages like Java and C# often use camel case or pascal case.
 
 # variables in python are case-sensitive
 # Variables with different cases
@@ -78,9 +81,9 @@ x = 10
 pi = 3.14
 
 # String (str): Sequence of characters, enclosed in single, double, or triple quotes.
-name = 'Alice'
 name = "Alice"
-name = '''Alice'''
+name = "Alice"
+name = """Alice"""
 name = """Alice"""
 
 # Boolean (bool): Represents truth values, either True or False.
@@ -90,7 +93,8 @@ is_student = True
 empty_variable = None
 
 
-# In Python, the type() function is used to get the type of an object. It returns the type object of the argument passed to it. Here's how you can use it:
+# In Python, the type() function is used to get the type of an object.
+#  It returns the type object of the argument passed to it. Here's how you can use it:
 print(type(5))  # Output: <class 'int'>
 print(type(3.14))  # Output: <class 'float'>
 print(type("Hello"))  # Output: <class 'str'>
@@ -110,13 +114,15 @@ z = str(10)  # z will be "10"
 a = bool(0)  # a will be False
 b = bool(10)  # b will be True
 
-# Explicit Conversion: Converting between incompatible types may result in errors or loss of data. You can explicitly convert a value to another type if the conversion is valid.
+# Explicit Conversion: Converting between incompatible types may result in errors or loss of data.
+# You can explicitly convert a value to another type if the conversion is valid.
 x = "10"
 y = int(x)  # y will be 10
 
 ##########################  DEALING_WITH_STRINGS   ##########################
 
-# String slicing in Python allows you to extract substrings from a string by specifying a start and end index. It's done using square brackets [] with the syntax [start_index:end_index:step]. Here's how it works:
+# String slicing in Python allows you to extract substrings from a string by specifying a start and end index.
+# It's done using square brackets [] with the syntax [start_index:end_index:step]. Here's how it works:
 
 # Example string
 text = "Hello, World!"
